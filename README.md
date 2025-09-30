@@ -10,11 +10,34 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
    npm install
    ```
 
-2. Start the app
+2. Export web
+
+   ```bash
+   npx expo export --platform web
+   ```
+
+3. Start the web app
+
+   ```bash
+   npm run web
+   ```
+
+4. Start the app
 
    ```bash
    npx expo start
    ```
+
+5. Build the app
+   ```bash
+   eas build --platform all
+   ```
+
+5. Deploy the app
+   ```bash
+   eas deploy
+   ```
+
 
 In the output, you'll find options to open the app in a
 
